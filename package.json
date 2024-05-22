@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": ">=22.1.0",
+    "npm": ">=10.7.0"
+  },
   "scripts": {
     "test": "mocha src/tests/*.js",
     "testNyan": "mocha src/tests/*.js --reporter nyan",
